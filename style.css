@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.container {
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+}
+
+#firstname {
+    position: relative;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 118px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+}
+
+#secondname {
+    position: relative;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 78px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #10B981;
+    ;
+}
+
+#supporting-text {
+    position: relative;
+    width: 375px;
+    height: 28px;
+    left: 52px;
+    top: 41px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    position: relative;
+    width: 223px;
+    height: 42px;
+    left: 52px;
+    top: 91px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#input-range {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    position: relative;
+    width: 169px;
+    height: 18px;
+    left: 290px;
+    top: 131px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+#input-range:hover{
+    background: #00ffaa;;
+}
+
+button:hover{
+    background: #00ffaa;;
+}
+
+hr{
+    position: relative;
+    width: 435px;
+    height: 0px;
+    left: 54px;
+    top: 114px;
+    align-items: center;
+}
+
+.boxes{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    top: 161px;
+}
+
+.box{
+width: 211px;
+height: 39px;
+left: 52px;
+top: 399px;
+color: #FFFFFF;
+background: #273549;
+border-radius: 6px;
+text-align: center;
+}

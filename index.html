@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random password generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla&display=swap" rel="stylesheet">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+                <p id="firstname">Generate a</p>
+                <p id="secondname">random password</p>
+          <p id="supporting-text">Never use an insecure password again.</p>
+          <input id="input-range" type="number">
+          <button id="btn" onclick="genpass()">Generate passwords</button>
+          <hr size="3" color="#2F3E53">
+
+          <div class="boxes">
+            <input class="box" onclick="copyText1()" value="- - -" id="input1">
+            <input class="box" onclick="copyText2()" value="- - -" id="input2">
+            <input class="box" onclick="copyText3()" value="- - -" id="input3">
+            <input class="box" onclick="copyText4()" value="- - -" id="input4">
+          </div>
+        </div>
+
+      
+    </section>
+  
+</body>
+
+</html>
